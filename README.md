@@ -5,4 +5,5 @@
 4. Copy `custom` directory into `~/.oh-my-zsh/custom`
 5. Copy `.zshrc` directory to `~`
 6. [Install asdf](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf)
-7. [Install commitizen](https://github.com/commitizen/cz-cli#installing-the-command-line-tool)
+7. [Install asdf nodejs plugin](https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin)
+8. [Install commitizen](https://github.com/commitizen/cz-cli#conventional-commit-messages-as-a-global-utility)
