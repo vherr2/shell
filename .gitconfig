@@ -6,3 +6,6 @@
 	fixup = cz --amend --no-edit
 [rebase]
 	autosquash = true
+[user]
+	email = vherr2@illinois.edu
+	name = Vincent Herr
