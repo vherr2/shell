@@ -1,3 +1,6 @@
+export SAVEHIST=$HISTSIZE
+setopt hist_ignore_all_dups
+
 export EDITOR=vim
 # Enable Ctrl-x-e to edit command line
 autoload -U edit-command-line
