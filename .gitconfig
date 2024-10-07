@@ -3,9 +3,26 @@
 	autoupdate = true
 [alias]
 	graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
-	fixup = "!git log -n 10 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
+	fixup = "!git log -n 15 --pretty=format:'%h %s' --no-merges | fzf | cut -c -7 | xargs -o git commit --fixup"
 [rebase]
 	autosquash = true
 [user]
 	email = vherr2@illinois.edu
-	name = Vincent Herr
+	name = Vince Herr
+[push]
+	autoSetupRemote = true
+	default = current
+[core]
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    side-by-side = true
+    navigate = true    # use n and N to move between diff sections
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
