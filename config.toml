@@ -1,0 +1,5 @@
+[tools]
+cocogitto = "latest"
+delta = "latest"
+fzf = "latest"
+gh = "latest"
